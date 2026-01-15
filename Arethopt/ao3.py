@@ -15,3 +15,7 @@ print(var["mul"])
 
 var ["div"] = var ["a"] / var ["b"] / var ["c"]
 print(var["div"])
+
+var ["compare"] = (var ["a"] == var ["b"]) & (var ["b"] == var ["c"])
+print(var["compare"])
+
