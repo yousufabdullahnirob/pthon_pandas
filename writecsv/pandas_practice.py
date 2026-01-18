@@ -33,3 +33,7 @@ print(csv1.sort_values(by="is_canceled",ascending=False))
 
 csv1.loc[0, "symbol"] = "hfvjhf"
 print(csv1["symbol"])
+
+csv1.loc[0:5, "symbol"] = "hfvjhf"
+print(csv1["symbol"])
+
